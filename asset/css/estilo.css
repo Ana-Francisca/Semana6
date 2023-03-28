@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(50, 57, 65);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: blue;
+}
+
+header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    background-color: crimson;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    margin: 10px;
+    flex: 1 1 200px;
+}
+
+p{
+    color: aliceblue;
+}
